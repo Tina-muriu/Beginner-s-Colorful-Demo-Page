@@ -1,0 +1,46 @@
+body{
+    font-size: 74;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(176, 195, 204);
+}
+h1{ font-size: 4em; }
+p, li{font-size: 2em; }
+.filler{height:2px; }
+header{
+    background: #cccc00;
+    padding: 16px 2px 16px 16px;
+    text-align: center;
+    color: rgb(32, 29, 25);
+}
+#content{
+    padding: 15px 30px 0 0;
+    height: 100px;
+}
+#main-content{
+    margin-left: 295px;
+    background-color: #ffff99;
+    max-width:600px ;
+    padding: 10px;
+    height: 320px;
+}
+#sidebar{
+    color: rgb(157, 96, 214);
+    width: 295px;
+    float: left;
+    padding: 0 0 0 15px;
+}
+#sidebar ul{
+    list-style:inside;
+    color: #663300;
+}
+#footer {
+    position: fixed; /* Set the position to fixed to keep it at the bottom */
+    background-color: #cccc00;
+    height: 70px; /* Specify the height in pixels */
+    width: 100%; /* Make it span the full width of the viewport */
+    text-align: center;
+    padding: 6px; /* Add padding for spacing */
+    bottom: 0; /* Place it at the bottom of the viewport */
+    left: 0; /* Align it to the left edge */
+    color: #0e0101; /* Adjust text color as needed */
+}
